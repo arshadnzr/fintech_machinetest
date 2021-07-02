@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_user">
+
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.example.flynttech_machinetest.ui.user.UserFragment"
+        android:label="User"
+        tools:layout="@layout/fragment_user" />
+
+    <fragment
+        android:id="@+id/navigation_album"
+        android:name="com.example.flynttech_machinetest.ui.albums.AlbumsFragment"
+        android:label="Album"
+        tools:layout="@layout/fragment_albums" />
+
+    <fragment
+        android:id="@+id/navigation_posts"
+        android:name="com.example.flynttech_machinetest.ui.post.PostFragment"
+        android:label="Posts"
+        tools:layout="@layout/fragment_posts" />
+
+    <fragment
+        android:id="@+id/navigation_todo"
+        android:name="com.example.flynttech_machinetest.ui.todo.ToDoFragment"
+        android:label="To-Do"
+        tools:layout="@layout/fragment_todo" />
+
+</navigation>
